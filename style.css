@@ -23,6 +23,17 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.oscurecer{
+      background-image: 
+        linear-gradient(
+          rgba(0, 0, 0,0.5),
+          rgba(0, 0, 0,0.5))
+
+}
+.servicios{
+    font-size: 25px !important;
+}
+
 .listaItem{  list-style-type: circle; }
 
 .pointer{
@@ -30,12 +41,12 @@
 }
 .centrado{
      text-align: center; 
-
+     
 }
 
 body {
     color: #999999;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
 }

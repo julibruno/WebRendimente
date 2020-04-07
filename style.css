@@ -24,8 +24,13 @@
 -------------------------------------------------------------------*/
 
 
+.list-group-item.active{
+    color:whitesmoke!important;
+    cursor: pointer;
+}
+
 .list-group-item-action:focus, .list-group-item-action:hover{
-    background-color: #CFCFCF!important ;
+    background-color: rgb(151, 149, 149)!important ;
 }
 
 .oscurecer{

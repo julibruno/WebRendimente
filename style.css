@@ -22,15 +22,11 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
-.card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
 
+
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background-color: #CFCFCF!important ;
+}
 
 .oscurecer{
       background-image: 

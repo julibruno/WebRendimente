@@ -23,9 +23,13 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.gallery-list .img-overlay {
 
+background-color:rgba(215, 218, 220, 0.8)!important ;
+}
 .list-group-item.active{
-    color:whitesmoke!important;
+    color: #333333!important;
+    background-color: #E2E2E2;
     cursor: pointer;
 }
 

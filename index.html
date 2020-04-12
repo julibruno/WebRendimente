@@ -82,13 +82,13 @@
       </div>
     </nav>
 	
-	<section id="home" class="main-banner parallaxie" style="background: url('images/Fondo.jfif')">
+	<section id="home" class="main-banner parallaxie" style="background: url('images/Fondo.jpg')">
 		<div class="heading">
 			
 			<img class="img-fluid" src="images/LogoRedimente1.png" alt=""  />	
 			<h3 class="cd-headline clip is-full-width">
 				
-				<span>Trabajar para trasceder </span>
+				<span>Trabajar para trascender </span>
 			</br>
 			</br>
 				<span class="cd-words-wrapper">
@@ -120,7 +120,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Servicios</h3>
-				<img src="images/iconos/Iconos/Organizacional.png"/>
+				<img src="images/iconos/Iconos/organizacional.png"/>
 				<h1>Organizacional</h1>
 				
 			</div><!-- end title -->
@@ -351,6 +351,35 @@
 		</div>
 	</div>
 
+
+	
+	<div id="service" class="section wb" >
+		<div class="container">
+			<p>
+				<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+			  </p>
+			  <div class="row">
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample1">
+					<div class="card card-body">
+					  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample2">
+					<div class="card card-body">
+					  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+					</div>
+				  </div>
+				</div>
+			  </div>
+			
+ñ
+		</div>
+	</div>
 	
 
 
@@ -362,7 +391,7 @@
 	<div class="container">
 		<div class="section-title text-center">
 			<h3>Acerca de nosotros</h3>
-			<h2>Trabajar para trasceder</h2>
+			<h2>Trabajar para trascender</h2>
 		</div><!-- end title -->
 
 		<div class="row">
@@ -460,7 +489,7 @@
 					<h3 class="title">Eugenio Franco</h3>
 						<span class="post">Lic. en Psicología</span>
 						<ul class="social">
-							<li><a href="https://www.facebook.com/nico.pellicciaro" class="fa fa-facebook"></a></li>
+							
 							<li><a href="https://www.linkedin.com/in/eugenio-franco-61998b18a/" class="fa fa-linkedin"></a></li>
 							<!--<li><a href="#" class="fa fa-google-plus"></a></li>
 							<li><a href="#" class="fa fa-skype"></a></li>-->
@@ -480,7 +509,7 @@
 							<h3 class="title">Nicolas Pellicciaro</h3>
 							<span class="post">Lic. en Psicología</span>
 							<ul class="social">
-								<li><a href="https://www.facebook.com/nico.pellicciaro" class="fa fa-facebook"></a></li>
+								
 								<li><a href="https://www.linkedin.com/in/nicol%C3%A1s-pellicciaro-17554a18b/" class="fa fa-linkedin"></a></li>
 							</ul>
 						</div>
@@ -497,7 +526,7 @@
 							<h3 class="title">Nicolas Pascucci</h3>
 							<span class="post">Lic. en Psicología</span>
 							<ul class="social">
-								<li><a href="https://www.facebook.com/nico.pellicciaro" class="fa fa-facebook"></a></li>
+								
 								<li><a href="https://www.linkedin.com/in/nicolas-pascucci-b08825144/" class="fa fa-linkedin"></a></li>
 							</ul>
 						</div>
@@ -763,25 +792,26 @@
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                   <!--     <form  id="contactForm" name="sentMessage" novalidate="novalidate" action="contact_me.php" method="POST"> -->
+					<form  id="contactForm" name="sentMessage" novalidate="novalidate">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input class="form-control" id="name" type="text" placeholder="Nombre y Apellido" required="required" data-validation-required-message="Por favor completa tu nombre">
+										<input class="form-control" id="name" name="name" type="text" placeholder="Nombre y Apellido" required="required" data-validation-required-message="Por favor completa tu nombre">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Tu Email" required="required" data-validation-required-message="Por favor completa tu email">
+										<input class="form-control" id="email" name="email" type="email" placeholder="Tu Email" required="required" data-validation-required-message="Por favor completa tu email">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Tu telefono" required="required" data-validation-required-message="Por favor completa tu número.">
+										<input class="form-control" id="phone" name="phone" type="tel" placeholder="Tu telefono" required="required" data-validation-required-message="Por favor completa tu número.">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor completa el mensaje."></textarea>
+										<textarea class="form-control" id="message" name="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor completa el mensaje."></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>

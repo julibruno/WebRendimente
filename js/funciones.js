@@ -1,5 +1,25 @@
 var i;
 
+
+function BotonCotizar(){
+
+}
+
+function MotivoContacto(Motivo){
+    
+ 
+        $('html,body').animate({
+            scrollTop: $('#contact').offset().top
+        }, 700);
+    
+    element = document.getElementById(Motivo)
+element.selected=true;
+
+}
+
+
+
+
 function ocultarBoton(){
 
     elemento= document.getElementById('BotonverMas');

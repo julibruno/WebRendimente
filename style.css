@@ -23,6 +23,73 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+
+.TituloMotivos {
+   text-align: center;
+    background-color:rgb(197, 197, 197);
+    font-size: 18px;
+}
+.Formulario option:hover{
+
+    background-color:rgb(197, 197, 197) !important;
+}
+
+
+
+.Formulario{
+    height: 55px !important;
+
+}
+
+.Mensaje {
+    min-height: 310px !important;
+}
+
+
+.Justificado{
+    text-align: justify !important;
+
+}
+
+.BotonTarjeta{
+    display: block !important ;
+    margin: auto;
+    text-align: center;
+    font-weight: 500 !important;
+    cursor: pointer;
+    color: black !important;
+
+}
+.TextoTarjeta{
+    color: black !important;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.TituloTarjeta{
+    text-align: center !important;
+    font-weight: 700;
+}
+
+.imagenesServicios{
+    width: auto !important;
+    margin-top: 15px !important;
+    display:block;
+    margin:auto;
+}
+
+
+.SiguienteAnteriorBotones{
+    text-align: center ;
+    margin-block-end: 15px;
+}
+
+.previos{
+    background-color: rgb(104, 104, 104) !important;
+    width: 2%;
+}
+
+
 .gallery-list .img-overlay {
 
 background-color:rgba(215, 218, 220, 0.8)!important ;

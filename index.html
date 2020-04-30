@@ -102,8 +102,8 @@
 					<b>MANEJO DE ANSIEDAD</b>
 				</span>
 				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="#service">Conoce más</a>
-					<a class="learn_btn hvr-bounce-to-top" href="#contact">Contacto</a>
+					<a class="get_btn hvr-bounce-to-top" href="#service" onclick="MoverAServicios()">Conoce más</a>
+					<a class="learn_btn hvr-bounce-to-top" href="#contact"  onclick="MotivoContacto()">Contacto</a>
 				</div>
 			</h3>
 		</div>
@@ -117,9 +117,9 @@
                     <div class="message-box">                        
 						<h2>Bienvenidos a Rendimente</h2>
 					</br>
-                        <p>Somos una consultora orientada a encontrar el máximo rendimiento de cada persona. Nuestro proyecto se sustenta en la Psicología como disciplina científica. Aplicamos nuestro trabajo al ámbito organizacional y deportivo, apuntamos a desarrollar el potencial individual y grupal a través del foco en sus habilidades. Lo hacemos con principal atención al bienestar de nuestros clientes para brindar una experiencia única y enriquecedora, en la cual ellos sean los protagonistas del cambio.</p>
+                        <p class="Justificado">Somos una consultora orientada a encontrar el máximo rendimiento de cada persona. Nuestro proyecto se sustenta en la Psicología como disciplina científica. Aplicamos nuestro trabajo al ámbito organizacional y deportivo, apuntamos a desarrollar el potencial individual y grupal a través del foco en sus habilidades. Lo hacemos con principal atención al bienestar de nuestros clientes para brindar una experiencia única y enriquecedora, en la cual ellos sean los protagonistas del cambio.</p>
 
-                        <a href="#service" class="sim-btn hvr-bounce-to-top"><span>Conoce más</span></a>
+                        <a href="#service" class="sim-btn hvr-bounce-to-top" onclick="MoverAServicios()" ><span>Conoce más</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -146,17 +146,7 @@
 				<h1>Organizacional</h1>
 				
 			</div><!-- end title -->
-			<div class="btn-ber SiguienteAnteriorBotones">
-		  
-				<a class="get_btn hvr-bounce-to-top" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<img src="images/iconos/anteriorbordo.png"> Anterior
-					
-				</a>
-				<a class="get_btn hvr-bounce-to-top" href="#carouselExampleIndicators" role="button" data-slide="next">Siguiente
-					<img src="images/iconos/proximobordo.png">
-				</a>
 			
-			</div>
 
 
 
@@ -183,8 +173,7 @@
 				<div class="card-body">
 				  <h4 class="card-title TituloTarjeta">Diseño Organizacional</h4>
 				  <p class="card-text TextoTarjeta">
-					Combinamos metodologías cuantitativas y cualitativas para determinar el estado actual de la organización, sus conflictos y sus potencialidades
-						Utilizamos como herramientas diagnósticas: <b>Análisis de Clima Laboral, Análisis de la Cultura Organizacional, Descripción de Roles.</b></p>
+					Combinamos metodologías cuantitativas y cualitativas para determinar el estado actual de la organización, sus conflictos y sus potencialidades. Utilizamos como herramientas diagnósticas: <b>Análisis de Clima Laboral, Análisis de la Cultura Organizacional, Descripción de Roles.</b></p>
 	  
 			<!--		<a class="get_btn hvr-bounce-to-top BotonTarjeta" data-toggle="modal" data-target="#DiseñoOrg" onclick="MotivoContacto('Diseno')">Contactanos</a>-->
 			<a class="get_btn hvr-bounce-to-top BotonTarjeta"  onclick="MotivoContacto('Diseno')" >Cotizar</a>
@@ -200,8 +189,7 @@
 					  <div class="card-body">
 						<h4 class="card-title TituloTarjeta">Evaluación de Potencial</h4>
 						<p class="card-text TextoTarjeta">
-							Identificamos y predecimos las <b>competencias</b> de las personas, con el fin de 
-                  optimizar el <b>talento</b> disponible en la organización y planificar la dotación futura.</p>
+							Identificamos y predecimos las <b>competencias</b> de las personas, con el fin de optimizar el <b>talento</b> disponible en la organización y planificar la dotación futura.</p>
             
 						<!--  <a class="get_btn hvr-bounce-to-top BotonTarjeta" data-toggle="modal" data-target="#Evaluacion" >Contactanos</a>-->
 						<a class="get_btn hvr-bounce-to-top BotonTarjeta"  id="Cotizar" onclick="MotivoContacto('Evalua')">Cotizar</a>
@@ -217,10 +205,7 @@
 						  <div class="card-body">
 							<h4 class="card-title TituloTarjeta">Coaching</h4>
 							<p class="card-text TextoTarjeta">
-								Proceso interactivo y transparente, mediante el cual buscamos junto con la persona o grupo
-							implicado el camino más eficaz para <b>alcanzar los objetivos fijados</b>, usando sus propios recursos
-								y habilidades. Logrando el traslado hacia un nivel superior de conciencia, vinculado con la 
-								<b>mejora del rendimiento.</b></p>
+								Proceso interactivo y transparente, mediante el cual buscamos junto con la persona o grupo implicado el camino más eficaz para <b>alcanzar los objetivos fijados</b>, usando sus propios recursos y habilidades. Logrando el traslado hacia un nivel superior de conciencia, vinculado con la <b>mejora del rendimiento.</b></p>
 								
 					
 
@@ -244,11 +229,7 @@
 				  <div class="card-body">
 					<h4 class="card-title TituloTarjeta">Selección del personal</h4>
 					<p class="card-text TextoTarjeta">
-						A partir de los requerimientos de la organización, los detalles del puesto, 
-                  sus responsabilidades y los problemas a resolver, realizamos: <b>análisis de la
-                   necesidad, definición del perfil, preselección, entrevista, evaluaciones 
-                   psicológicas, elaboración del ranking y presentación final</b> de los candidatos 
-                   más adecuados.</p>
+					A partir de los requerimientos de la organización, los detalles del puesto, sus responsabilidades y los problemas a resolver, realizamos: <b>análisis de la necesidad, definición del perfil, preselección, entrevista, evaluaciones psicológicas, elaboración del ranking y presentación final</b> de los candidatos más adecuados.</p>
 
 					  <a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Selecc')">Cotizar</a>
 				  </div>
@@ -262,10 +243,7 @@
 						<div class="card-body">
 						  <h4 class="card-title TituloTarjeta">Capacitación y desarrollo</h4>
 						  <p class="card-text TextoTarjeta">
-							Diseñamos planes de <b>capacitación adecuados a la necesidad de cada organización</b> 
-							para lograr que los trabajadores adquieran conocimientos y habilidades, 
-							amparados en <b>prácticas saludables orientadas a lograr el mayor desempeño y
-							 priorizando el bienestar psicosocial.</b>
+							Diseñamos planes de <b>capacitación adecuados a la necesidad de cada organización</b> para lograr que los trabajadores adquieran conocimientos y habilidades, amparados en <b>prácticas saludables orientadas a lograr el mayor desempeño y priorizando el bienestar psicosocial.</b>
 						</p>
 		  
 							<a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Capaci')">Cotizar</a>
@@ -281,10 +259,7 @@
 							<div class="card-body">
 							  <h4 class="card-title TituloTarjeta">Outplacement</h4>
 							  <p class="card-text TextoTarjeta">
-								<b>Brindamos herramientas para lograr una positiva reinserción laboral de los 
-									trabajadores desvinculados</b>, preservando su reputación en el mercado de trabajo y 
-									su bienestar familiar. Dicho servicio supone un valor agregado para la organización 
-									a la hora de contener y acompañar a quienes fueron parte de la misma.</b>
+								<b>Brindamos herramientas para lograr una positiva reinserción laboral de los trabajadores desvinculados</b>, preservando su reputación en el mercado de trabajo y su bienestar familiar. Dicho servicio supone un valor agregado para la organización a la hora de contener y acompañar a quienes fueron parte de la misma.</b>
 								</p>
 				  
 								<a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Outpla')">Cotizar</a>
@@ -307,8 +282,7 @@
 				  <div class="card-body">
 					<h4 class="card-title TituloTarjeta">Team Building</h4>
 					<p class="card-text TextoTarjeta">
-						Diseñamos <b>experiencias exclusivas</b> para cada organización, con el fin de potenciar 
-                  las relaciones interpersonales, el sentido de pertenencia y la motivación.
+						Diseñamos <b>experiencias exclusivas</b> para cada organización, con el fin de potenciar las relaciones interpersonales, el sentido de pertenencia y la motivación.
               </p>
 
 					  <a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Team')">Cotizar</a>
@@ -334,7 +308,17 @@
 	
 	  
 	  </div>
-	 
+	  <div class="btn-ber SiguienteAnteriorBotones">
+		  
+		<a class="get_btn hvr-bounce-to-top" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<img src="images/iconos/anteriorbordo.png"> Anterior
+			
+		</a>
+		<a class="get_btn hvr-bounce-to-top" href="#carouselExampleIndicators" role="button" data-slide="next">Siguiente
+			<img src="images/iconos/proximobordo.png">
+		</a>
+	
+	</div>
 </div>
 </div>
 
@@ -403,6 +387,8 @@
 			<h1>Deportivo</h1>
 			
 		</div><!-- end title -->
+		
+
 	<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -424,8 +410,7 @@
 			<div class="card-body">
 			  <h4 class="card-title TituloTarjeta">Capacitaciones deportivas</h4>
 			  <p class="card-text TextoTarjeta">
-				Diseñamos <b>planes de capacitación adecuados a la necesidad de cada institución</b> para lograr que los deportistas adquieran conocimientos y 
-				habilidades, amparados en prácticas saludables orientadas a lograr el mayor desempeño y priorizando el bienestar psicosocial.</p></p>
+				Diseñamos <b>planes de capacitación adecuados a la necesidad de cada institución</b> para lograr que los deportistas adquieran conocimientos y habilidades, amparados en prácticas saludables orientadas a lograr el mayor desempeño y priorizando el bienestar psicosocial.</p></p>
   
 				<a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Capacit')">Cotizar</a>
 			</div>
@@ -439,9 +424,7 @@
 				  <div class="card-body">
 					<h4 class="card-title TituloTarjeta">Entrenamiento psicológico</h4>
 					<p class="card-text TextoTarjeta">
-						Trabajamos con deportistas, entrenadores, preparadores físicos y árbitros de manera grupal y/o individual.
-                             <b>Maximizando su rendimiento</b> a partir del entrenamiento en habilidades psicológicas, tanto a nivel 
-                             amateur como profesional. Se abordan temas tales como: <b>Liderazgo, Motivación, Comunicación, Cohesión de equipo, Concentración, Autoconfianza, Afrontamiento y Manejo de Ansiedad</b>
+						Trabajamos con deportistas, entrenadores, preparadores físicos y árbitros de manera grupal y/o individual. <b>Maximizando su rendimiento</b> a partir del entrenamiento en habilidades psicológicas, tanto a nivel amateur como profesional. Se abordan temas tales como: <b>Liderazgo, Motivación, Comunicación, Cohesión de equipo, Concentración, Autoconfianza, Afrontamiento y Manejo de Ansiedad.</b>
 					</p>
 		
 					  <a class="get_btn hvr-bounce-to-top BotonTarjeta" id="Cotizar"  onclick="MotivoContacto('Entren')">Cotizar</a>
@@ -506,7 +489,8 @@
 
   
   </div>
-  <div class="btn-ber SiguienteAnteriorBotones">
+ <!--Botones anteriore y siguiente-->
+ <div class="btn-ber SiguienteAnteriorBotones">
 	  
 	<a class="get_btn hvr-bounce-to-top" href="#carouselExampleIndicators2" role="button" data-slide="prev">
 		<img src="images/iconos/anteriorbordo.png"> Anterior
@@ -516,7 +500,7 @@
 		<img src="images/iconos/proximobordo.png">
 	</a>
 
-</div>
+</div><!--Fin botones-->
 </div>
 </div>
 
@@ -777,7 +761,7 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="our-team">
 					<div class="pic">
-						<img src="uploads/eugenio.jpg" >
+						<img src="uploads/Eugeniobyn.jpg" >
 					</div>
 					<div class="team-content">
 					<h3 class="title">Eugenio Franco</h3>
@@ -924,7 +908,7 @@
 <!-- end Modal -->
 
 	
-<div id="portfolio" class="section lb">
+<div id="portfolio" class="section wb">
 	<div class="container">
 		<div class="section-title text-center">
 			<h3>Actividades</h3>

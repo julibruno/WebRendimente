@@ -1,9 +1,17 @@
-var i;
 
 
-function BotonCotizar(){
+
+function MoverAServicios(){
+    
+ 
+    $('html,body').animate({
+        scrollTop: $('#service').offset().top
+    }, 700);
+
 
 }
+
+
 
 function MotivoContacto(Motivo){
     
@@ -11,14 +19,14 @@ function MotivoContacto(Motivo){
         $('html,body').animate({
             scrollTop: $('#contact').offset().top
         }, 700);
-    
+    if(Motivo != undefined || Motivo != ""){
     element = document.getElementById(Motivo)
-element.selected=true;
+element.selected=true;}
 
 }
 
 
-
+var i;
 
 function ocultarBoton(){
 
@@ -27,7 +35,7 @@ function ocultarBoton(){
    
     if(i=== undefined || i==0){
         elemento.style.display = 'none';
-        console.log("se oculto");
+        //console.log("se oculto");
         i= 1;
     }else{
         elemento.style.display = '';

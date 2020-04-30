@@ -62,7 +62,7 @@
 }
 .TextoTarjeta{
     color: black !important;
-    /*
+    
     white-space: pre;         
     white-space: pre-wrap;      
     white-space: pre-line;      
@@ -76,8 +76,8 @@
     -o-hyphens:auto; 
     hyphens:auto;
     text-align: justify;   
-    */
-
+    
+/*
     text-align: justify;
    -ms-word-break: break-all;
     word-break: break-all;
@@ -89,7 +89,7 @@
      -ms-hyphens: auto;
          hyphens: auto;
 
-
+*/
 
  /*
   

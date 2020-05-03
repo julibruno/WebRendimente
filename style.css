@@ -23,6 +23,18 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.BotonModalServ{
+    cursor: pointer !important;
+}
+
+
+.centrado{
+ 
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+
+}
 
 .TituloMotivos {
    text-align: center;
@@ -133,7 +145,12 @@
 
 .previos{
     background-color: rgb(104, 104, 104) !important;
-    width: 2%;
+    width: 6%;
+}
+
+.Siguiente{
+    background-color: rgb(104, 104, 104) !important;
+    width: 8%;
 }
 
 
